@@ -1,0 +1,100 @@
+@charset "utf-8";
+/* CSS Document */
+
+/* 
+
+	Template Name: Party Ideas, Venues and Event Professionals HTML Template
+	
+*/
+
+/* Medium Devices, Desktops */
+@media (max-width: 1199px) {
+}
+@media (max-width: 991px) {
+.sticky-wrapper {
+	height: auto !important;
+}
+.sticky-wrapper .header-lover {
+	position: relative !important;
+}
+.header-lover-right {
+	padding: 14px 0px;
+	flex-direction: inherit;
+	justify-content: center;
+	border-top: 1px solid rgba(255,255,255,0.1);
+	border-bottom: 1px solid rgba(255,255,255,0.1);
+}
+.header-lover .navbar-nav {
+	background-color: #151515;
+	z-index: 99;
+	position: relative;
+}
+.header-lover .navbar .nav-item {
+	border-bottom: 1px solid rgba(255,255,255,0.1);
+}
+.header-lover .navbar .nav-item .nav-link {
+	padding: 14px 16px;
+	color: #fff;
+}
+.header-call a {
+	border: 0px;
+	border-radius: 0px;
+}
+.subscribe-form input {
+	margin-bottom: 10px;
+}
+}
+
+/* Small Devices, Tablets */
+@media (max-width: 767px) {
+.header-upper-link {
+	text-align: center;
+	margin-bottom: 15px;
+}
+.slider .carousel-item {
+	height: 500px;
+}
+.comments-block ul li ul {
+	margin-left: 0px;
+}
+.blog-single-social {
+	margin-top: 15px;
+}
+.big-text {
+	line-height: 100px;
+}
+}
+
+/* Extra Small Devices, Phones */
+@media (max-width: 575px) {
+.header-right-btn {
+	margin-top: 15px;
+}
+.banner-caption h5 {
+	font-size: 28px;
+	line-height: 30px;
+}
+.about-text h2 {
+	font-size: 30px;
+	line-height: 40px;
+}
+.inner-page-title h1 {
+	font-size: 30px;
+}
+.listing-box .btn-style-1.btn-sm, .listing-box .btn-style-2.btn-sm {
+	font-size: 10px;
+}
+.faq-box {
+	padding: 10px;
+}
+.comments-block ul li .d-flex {
+	display: inline-block !important;
+}
+.comments-block ul li .d-flex .flex-shrink-0 {
+	display: inline-block;
+	margin-bottom: 15px;
+}
+.comments-block ul li .d-flex .flex-grow-1 {
+	margin-left: 0px !important;
+}
+}
